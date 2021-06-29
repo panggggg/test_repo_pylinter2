@@ -33,3 +33,6 @@ jobs:
         flake8-flags: '--count --show-source --statistics'
         mypy-flags: '--ignore-missing-imports'
         fail-on-isort: true
+    - name: Test with pytest
+      run: |
+        pytest -m pytest
