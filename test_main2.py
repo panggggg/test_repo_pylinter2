@@ -2,7 +2,7 @@ import main2
 
 
 def test_sub():
-    assert main2.sub(4, 3) == 7
+    assert main2.sub(4, 3) == 1
 
 
 def test_word_count():
