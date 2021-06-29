@@ -35,4 +35,5 @@ jobs:
         fail-on-isort: true
     - name: Test with pytest
       run: |
+        pip install pytest
         python -m pytest
