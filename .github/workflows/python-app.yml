@@ -35,4 +35,4 @@ jobs:
         fail-on-isort: true
     - name: Test with pytest
       run: |
-        pytest -m pytest
+        python -m pytest
